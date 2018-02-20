@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Layout Demos</string>
+    <string name="LinearLayout">Linear Layout</string>
+    <string name="RelativeLayout">Relative Layout</string>
+    <string name="FrameLayout">Frame Layout</string>
+    <string name="ConstraintLayout">Constraint Layout</string>
+    <string name="letterH">H</string>
+    <string name="letterR">R</string>
+    <string name="letterI">I</string>
+    <string name="letterZ">Z</string>
+    <string name="letterN">N</string>
+    <string name="letterT">T</string>
+    <string name="letterA">A</string>
+    <string name="letterL">L</string>
+    <string name="letterO">O</string>
+</resources>

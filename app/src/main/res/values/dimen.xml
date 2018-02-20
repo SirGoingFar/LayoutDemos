@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimenTextSize">18dp</dimen>
+    <dimen name="dimenViewHeight">80dp</dimen>
+    <dimen name="dimenTextPadding">8dp</dimen>
+    <dimen name="dimenViewMargin">8dp</dimen>
+</resources>

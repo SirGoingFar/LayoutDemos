@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.aolanrewaju.layoutdemos.MainActivity">
+
+    <TextView
+        android:id="@+id/linear_layout_textview"
+        android:textColor="@android:color/white"
+        android:text="@string/LinearLayout"
+        android:background="@color/colorDeep"
+        style="@style/LayoutListing"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/relative_layout_textview"
+        android:textColor="@android:color/white"
+        android:text="@string/RelativeLayout"
+        android:background="@color/colorDeep"
+        style="@style/LayoutListing"/>
+
+    <TextView
+        android:id="@+id/frame_layout_textview"
+        android:textColor="@android:color/white"
+        android:text="@string/FrameLayout"
+        android:background="@color/colorDeep"
+        style="@style/LayoutListing"/>
+
+    <TextView
+        android:id="@+id/constraint_layout_textview"
+        android:textColor="@android:color/white"
+        android:text="@string/ConstraintLayout"
+        android:background="@color/colorDeep"
+        style="@style/LayoutListing"/>
+
+
+</LinearLayout>

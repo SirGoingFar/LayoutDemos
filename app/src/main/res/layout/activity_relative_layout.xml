@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.aolanrewaju.layoutdemos.RelativeLayoutActivity">
+
+    <TextView
+        android:id="@+id/leftTop"
+        android:text="Left Top"
+        style="@style/RelativeLayoutStyle"/>
+
+    <TextView
+        android:text="Center Top"
+        style="@style/RelativeLayoutStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:text="Right Top"
+        style="@style/RelativeLayoutStyle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:text="C. Left"
+        style="@style/RelativeLayoutStyle"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/center"
+        android:text="Center"
+        style="@style/RelativeLayoutStyle"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:text="C. Right"
+        style="@style/RelativeLayoutStyle"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:text="Bottom Left"
+        style="@style/RelativeLayoutStyle"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bottomCenter"
+        android:text="Bottom C."
+        style="@style/RelativeLayoutStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Bottom R."
+        style="@style/RelativeLayoutStyle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:text="Below"
+        style="@style/RelativeLayoutStyle"
+        android:layout_below="@id/center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimenTextPadding"/>
+
+    <TextView
+        android:text="Above"
+        style="@style/RelativeLayoutStyle"
+        android:layout_above="@id/center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimenTextPadding"/>
+
+</RelativeLayout>

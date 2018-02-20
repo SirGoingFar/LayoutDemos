@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LayoutListing">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimenViewHeight</item>
+        <item name="android:padding">@dimen/dimenTextPadding</item>
+        <item name="android:layout_marginTop">@dimen/dimenViewMargin</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/dimenTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LinearLayoutStyle">
+        <item name="android:background">@color/colorDeep</item>
+        <item name="android:padding">@dimen/dimenTextPadding</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">@dimen/dimenTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RelativeLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dimenTextPadding </item>
+        <item name="android:textSize">@dimen/dimenTextSize</item>
+        <item name="android:background">@color/colorDeep</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ConstraintLayoutStyle">
+        <item name="android:background">@color/colorDeep</item>
+    </style>
+
+</resources>
